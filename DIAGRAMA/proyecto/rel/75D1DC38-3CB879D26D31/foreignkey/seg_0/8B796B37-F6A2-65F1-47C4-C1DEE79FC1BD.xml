@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B796B37-F6A2-65F1-47C4-C1DEE79FC1BD" containerWithKeyObject="40AC8F50-7A0E-F28B-46BF-59CEAF73318B" localFKIndex="D5719350-EC35-CC3F-FF4A-B5D052ED87A9" name="Cooperativa_Conductor_FK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>F9723B14-EB56-B8AB-0D95-8AEFAAE7C32C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<referredTableLongName>Conductor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C8861D8-C005-93A6-6B75-F2E582864DF7</referredTableID>
+<keyObject>9FC81F6A-2FEE-4B87-93A7-B1FFC240A336</keyObject>
+<referredKeyID>9FC81F6A-2FEE-4B87-93A7-B1FFC240A336</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cedulaconductor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

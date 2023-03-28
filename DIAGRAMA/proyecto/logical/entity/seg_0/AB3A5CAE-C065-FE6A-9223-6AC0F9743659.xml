@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB3A5CAE-C065-FE6A-9223-6AC0F9743659" name="Factura">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:30:59 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_factura" id="670EEC55-0881-2CBE-B7FE-31590D3B4C57">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:31:34 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorapagar" id="40C86035-C53A-F0BB-5003-5091C9B55767">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:31:50 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorporpersona" id="428B1DBC-2534-68C1-3E87-8646E8B98E21">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:21:14 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura1" id="95E726B7-C657-CD53-B8A8-9439E48CDB9B">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:32:50 UTC</createdTime>
+<generatorID>4D9F428A-11AA-1F78-7B72-BA937F341485</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>B9C22C4D-A30D-048E-C1A7-AD02EB28A5B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="8EE6B802-BFC9-5C96-832C-D70BCBFD69A9">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:41:47 UTC</createdTime>
+<generatorID>4D9F428A-11AA-1F78-7B72-BA937F341485</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>49DA6DC8-C02A-804A-7B14-40ED7285138D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97AE37CB-95A3-C415-E4EE-0BB4772AFF34" name="Factura PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:31:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>670EEC55-0881-2CBE-B7FE-31590D3B4C57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

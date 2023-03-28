@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99E3A79D-72F9-F422-3B35-28BE2ADC7C76" containerWithKeyObject="B88EA6B7-445C-9D6B-6D34-FC4EDDC6C4B5" localFKIndex="2461C43F-A07B-F18D-FB20-DE8104FB2D5A" name="Reserva_Factura_FK">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 19:06:48 UTC</createdTime>
+<generatorID>4D9F428A-11AA-1F78-7B72-BA937F341485</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<referredTableLongName>Factura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7DCFC43D-44B9-AD17-0F0D-CAC5AD2ACC33</referredTableID>
+<keyObject>F8138813-04B6-5353-CE92-D0EC1E7B72EA</keyObject>
+<referredKeyID>F8138813-04B6-5353-CE92-D0EC1E7B72EA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_factura</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31F14093-37BE-CD0A-97AD-2F783DE3FA42" name="Cooperativa">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:15:03 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre" id="98643C47-1EB9-07EC-79B1-451A51620D8F">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:15:14 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="politica" id="CEE22918-CF89-9062-F5BB-64F3E96791E4">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:15:35 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ruc" id="89761D2B-7068-7F6B-4719-78C79243B31A">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:16:59 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa" id="9B251581-6B87-EBD2-D98C-2255EF592F7B">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:30:56 UTC</createdTime>
+<generatorID>124C5E99-1CF0-CDC1-7411-D2C70EC7D03B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="false"/>
+</engineerTo>
+<referedAttribute>EE8558E9-DD2A-13D0-2C04-67500244A7B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura" id="BE062FC1-A037-6B26-C0BE-F57C96DA1D91">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:32:50 UTC</createdTime>
+<generatorID>5E0380B3-5A27-2421-274E-E4CA700C0D2B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>B9C22C4D-A30D-048E-C1A7-AD02EB28A5B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="F978BA74-43BE-0C04-ABBC-3165D3FDEE12">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:41:47 UTC</createdTime>
+<generatorID>5E0380B3-5A27-2421-274E-E4CA700C0D2B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>49DA6DC8-C02A-804A-7B14-40ED7285138D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cedulaconductor" id="096B59D3-85BE-3160-4772-66D7C488E62F">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:45:09 UTC</createdTime>
+<generatorID>F9723B14-EB56-B8AB-0D95-8AEFAAE7C32C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>25996C33-5199-88B5-8258-EB285775C4A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerodecuentabancaria" id="B9363B75-C93F-9216-0EA2-F3722689FB1B">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:48:05 UTC</createdTime>
+<generatorID>6B9CD567-92DC-C490-189F-08E266C6B2E0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>455414F2-2F6D-CC1C-4658-93155A2CF57E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C29BD079-53CA-2120-B442-F0AC0EBF75E2" name="Cooperativa PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:17:11 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89761D2B-7068-7F6B-4719-78C79243B31A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7753D0C-CC2C-F5C0-9F3B-69030AF43DA0" name="Usuario">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:01:23 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cedulaidentidad" id="F3ACBA8E-3CDB-7FBB-58F2-55A7DF59F283">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:01:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="5D712A1E-250D-DE07-1BAB-4619C63F999A">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:01:51 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="0808431B-0572-193F-1446-5F0C57BA78E6">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:02:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contraseña" id="25F554FD-25A9-D03F-A245-8D47D728F445">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:03:59 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="7CD8B9B7-4E77-00F9-93D2-85B358F99B25">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:05:16 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura" id="C20123BF-F8DF-0B69-4188-FEB532089BF5">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:32:50 UTC</createdTime>
+<generatorID>D06BBC08-A9FC-F754-4469-A53E031C95EF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>B9C22C4D-A30D-048E-C1A7-AD02EB28A5B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reserva" id="4CEA0C9C-3635-0E1B-558E-3B7F4935095D">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:41:47 UTC</createdTime>
+<generatorID>D06BBC08-A9FC-F754-4469-A53E031C95EF</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>49DA6DC8-C02A-804A-7B14-40ED7285138D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numerodecuentabancaria" id="D69C64BA-5B17-676A-B4CD-5880E9363BF4">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:47:56 UTC</createdTime>
+<generatorID>4DBB3911-A7BC-43BC-B5DC-9C238DB91FC7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>455414F2-2F6D-CC1C-4658-93155A2CF57E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_factura1" id="F9C1CC40-38AC-E232-BD58-0D2817444472">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:48:41 UTC</createdTime>
+<generatorID>0C34206D-3A74-7897-7F50-4C46D005BA45</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>670EEC55-0881-2CBE-B7FE-31590D3B4C57</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="84E01C45-83B5-E8CC-A950-A2BB7E5CFB9B" name="Usuario PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:01:47 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F3ACBA8E-3CDB-7FBB-58F2-55A7DF59F283</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

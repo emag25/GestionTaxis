@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C6FCEE0-66BE-F739-A308-811561BB3D0D" name="Vehiculo">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>35FA0F3B-C82D-003D-6683-F0617EF67D6B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="modelo" id="13F0B8BD-5C50-AADE-30A4-2C803D108E8E">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>EB782BB2-407F-E1C4-0ABF-F4B3FD8C938B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="867C3B7B-D593-DDAB-E5F6-F6C69F71A785">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>EE8558E9-DD2A-13D0-2C04-67500244A7B7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="64F4C8B1-86C5-92FC-F9B7-CE14F41B69A3">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>2BBE311E-0E7F-3FC3-AE4E-16341324C384</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca" id="B73EEBA9-A198-D4BE-8CDD-A63CA54C94B5">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>1182EA10-1470-B2A4-FFF5-C2E6B89CABC3</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C39291E-5FE9-B187-8EC1-50442AED8730" name="Vehiculo_PKv1">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>5CC546A1-E1FC-5BC6-060C-D765924CA6C0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="867C3B7B-D593-DDAB-E5F6-F6C69F71A785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60063D28-C8D7-7849-6013-F7FA3DDCB148" name="Vehiculo_PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+</ind_PK_UK>
+</indexes>
+</Table>

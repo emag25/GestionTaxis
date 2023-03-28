@@ -1,0 +1,225 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B88EA6B7-445C-9D6B-6D34-FC4EDDC6C4B5" name="Reserva">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>5F199E52-40F7-CD3F-5786-E5EB231C8157</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="acompañantes" id="58E262E6-2091-5894-2F71-961ECEB4908A">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>EB23A3FB-C134-BC63-9391-A23FB528D6D5</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origen" id="49167118-D003-A841-A822-D3A5C56F759C">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>F3A7D2B1-FCBE-15D8-4BA1-7FD94BACA606</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destino" id="D6DA9D58-8D48-E3F1-207C-6E0813C5D320">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>625DC7FA-7E30-5DD0-7212-5554E9C3E519</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_reserva" id="1CC80ED4-4023-31EF-83DA-A10CA524D223">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>41920950-82A0-4921-55B0-9E6042C7B571</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="3E2AD722-A150-4035-12C4-5DD0D060AA85">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>3FB905CB-4971-B62B-2165-DB1ACF848348</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="4162E716-E57E-39CD-0F17-B96A844875F1">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>D984BDB3-8FE5-4E3E-0B53-D88C195DCAC6</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruc1" id="FF39FDAF-E117-226E-5B38-B8AC5B10E469">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>EF66BB17-D48F-8550-0B4C-B7211A7A9B18</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_reserva1" id="A2834D3D-F4CA-09E5-408D-7CE314710F66">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>17296A73-1A19-16A9-7694-62D1DC5B6C30</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_reserva2" id="85615A66-F496-F78B-7F94-713501FF2B2C">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>94F56CA7-A7A5-A550-C13E-DF943E3EE30C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Factura_id_factura" id="2E3D962F-BC34-026E-CE1B-E989B6A17B3A">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>B9C22C4D-A30D-048E-C1A7-AD02EB28A5B5</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99E3A79D-72F9-F422-3B35-28BE2ADC7C76" referredColumn="2AF6662B-A143-3CDF-281F-7832728B51DD"/>
+</associations>
+</Column>
+<Column name="Total_pasajeros" id="FB7BA703-5BFA-8DC3-0AED-83F7BD7522C0">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>53063B51-510D-799E-544A-EB1D9686D5A7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_reserva3" id="E8C6B26E-8C39-75FD-4DCA-E52325D723BF">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>49DA6DC8-C02A-804A-7B14-40ED7285138D</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tarifadelviaje" id="6811A8F3-A61D-0C3D-CD5E-0E53520B356B">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>31B1EA66-583A-CFDD-EED2-2FC09B4634C4</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="7AEE4209-0098-2295-1426-9B9C4588811B">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 18:27:58 UTC</createdTime>
+<generatorID>498E1355-6390-5EFE-ABDC-6176ED0FCCB7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calificacion" id="F4422290-2DA5-8998-FA48-644AE0427A6D">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 18:27:58 UTC</createdTime>
+<generatorID>0954A3AF-6B4C-E12D-2A3A-94266DA5EE27</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC97855D-5B55-C77C-2979-2BF9F8D1E83E" name="Reserva_PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>8B488B7D-7823-4C94-AD73-D56B2F8799D0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E3D962F-BC34-026E-CE1B-E989B6A17B3A"/>
+<colUsage columnID="1CC80ED4-4023-31EF-83DA-A10CA524D223"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="974BEFC0-8FA1-B15B-5E28-26B7B63E490D" name="Viaje__IDX">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4D9F428A-11AA-1F78-7B72-BA937F341485</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2E3D962F-BC34-026E-CE1B-E989B6A17B3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2461C43F-A07B-F18D-FB20-DE8104FB2D5A" name="Reserva_Factura_FK">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 19:06:48 UTC</createdTime>
+<generatorID>4D9F428A-11AA-1F78-7B72-BA937F341485</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E3D962F-BC34-026E-CE1B-E989B6A17B3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

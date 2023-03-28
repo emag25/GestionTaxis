@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF552161-66CA-F785-36A2-87FF44BB88D0" name="Cuenta_bancaria">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:45:29 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numerodecuentabancaria" id="455414F2-2F6D-CC1C-4658-93155A2CF57E">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:45:46 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechadevencimiento" id="2F707FC1-3CAF-EA90-7F14-AE10DF953D00">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:46:02 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cedula_titular" id="DB7C403A-907A-E9D3-6547-F0F7090A97FB">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:46:35 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cvv" id="1CD9597A-4DDA-5FC6-E97B-03A66B365D84">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:47:01 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cedulaidentidad" id="76C8675C-8DE4-A166-892D-3D58C28471D1">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:47:56 UTC</createdTime>
+<generatorID>4DBB3911-A7BC-43BC-B5DC-9C238DB91FC7</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>F3ACBA8E-3CDB-7FBB-58F2-55A7DF59F283</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ruc" id="C74841E8-4666-8C44-7DB3-AD9FA7059455">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:48:05 UTC</createdTime>
+<generatorID>6B9CD567-92DC-C490-189F-08E266C6B2E0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="true"/>
+</engineerTo>
+<referedAttribute>89761D2B-7068-7F6B-4719-78C79243B31A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A45DAE48-B94F-338D-8D8B-42AF5FBC8EC7" name="Cuenta_bancaria PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:45:59 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="75D1DC38-A965-585B-4FF8-3CB879D26D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>455414F2-2F6D-CC1C-4658-93155A2CF57E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

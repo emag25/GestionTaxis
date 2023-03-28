@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40AC8F50-7A0E-F28B-46BF-59CEAF73318B" name="Cooperativa">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>31F14093-37BE-CD0A-97AD-2F783DE3FA42</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="03634CBB-2808-E01A-9688-E586981E20F7">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>98643C47-1EB9-07EC-79B1-451A51620D8F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="politica" id="179285D4-D862-4557-7A95-E769BD3D1E00">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>CEE22918-CF89-9062-F5BB-64F3E96791E4</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ruc" id="D849AD3B-257E-270E-4A85-60F6C920D302">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>89761D2B-7068-7F6B-4719-78C79243B31A</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vehiculo_Vehiculo_ID" id="252833C3-41F6-9EE7-5581-39FD32760F26">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuentabancariacoop" id="DCF06222-F3D5-3F4A-ED76-A2936E0C7EA4">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 15:59:54 UTC</createdTime>
+<generatorID>BAAE83D8-6D90-6C32-FD51-0EA609BB8E59</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Viaje_id_reserva" id="2905605F-EFC1-4009-DB0C-CB8437F18D86">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>A3C871CF-CD1D-59DE-E08C-0978B8AFFAE5</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="placa" id="1E4B330F-6245-4994-F107-9A4114DD0818">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>9B251581-6B87-EBD2-D98C-2255EF592F7B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6BA6A11F-0F13-B360-479A-DB3629F5314C" referredColumn="867C3B7B-D593-DDAB-E5F6-F6C69F71A785"/>
+</associations>
+</Column>
+<Column name="Reserva_Factura_id_factura" id="1A98F432-5EB1-6DC5-0733-7D7853365DB4">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>BE062FC1-A037-6B26-C0BE-F57C96DA1D91</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="535103B2-F87E-813F-B4E4-D9636736E5BD" referredColumn="2E3D962F-BC34-026E-CE1B-E989B6A17B3A"/>
+</associations>
+</Column>
+<Column name="Conductor_cedulaconductor" id="604E1A84-36A1-64DE-CC78-4EFDC2BA1302">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>096B59D3-85BE-3160-4772-66D7C488E62F</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B796B37-F6A2-65F1-47C4-C1DEE79FC1BD" referredColumn="12C6C753-4527-3AB7-7DB8-4AA0CB61C172"/>
+</associations>
+</Column>
+<Column name="Cuenta_bancaria_numerodecuentabancaria" id="E20B90AA-3568-1175-0751-FCDCF798014A">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>B9363B75-C93F-9216-0EA2-F3722689FB1B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43B7E857-4AE7-55EA-52B4-E03E4ECE2976" referredColumn="E134E4C3-8A1F-CCC0-AB76-F603210AF579"/>
+</associations>
+</Column>
+<Column name="Reserva_id_reserva" id="47BA1A76-D583-252B-2390-AFA8B958F853">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 19:38:11 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="535103B2-F87E-813F-B4E4-D9636736E5BD" referredColumn="1CC80ED4-4023-31EF-83DA-A10CA524D223"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A1351B3-DEFC-8D2E-2296-4155D0F91360" name="Cooperativa_PK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>C29BD079-53CA-2120-B442-F0AC0EBF75E2</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D849AD3B-257E-270E-4A85-60F6C920D302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93F9AC80-09EB-1878-0F66-6A3E23C534BF" name="Cooperativa__IDX">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6B9CD567-92DC-C490-189F-08E266C6B2E0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E20B90AA-3568-1175-0751-FCDCF798014A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="695DCAD3-7E26-3024-EF58-1DEA0CB92C5C" name="Cooperativa_Vehiculo_FK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-08 19:41:48 UTC</createdTime>
+<generatorID>124C5E99-1CF0-CDC1-7411-D2C70EC7D03B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E4B330F-6245-4994-F107-9A4114DD0818"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A15997D-EB4E-5E13-869D-076A190A2C3A" name="Cooperativa_Reserva_FK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-12 16:38:29 UTC</createdTime>
+<generatorID>5E0380B3-5A27-2421-274E-E4CA700C0D2B</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A98F432-5EB1-6DC5-0733-7D7853365DB4"/>
+<colUsage columnID="47BA1A76-D583-252B-2390-AFA8B958F853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5719350-EC35-CC3F-FF4A-B5D052ED87A9" name="Cooperativa_Conductor_FK">
+<createdBy>pauli</createdBy>
+<createdTime>2021-07-18 17:54:41 UTC</createdTime>
+<generatorID>F9723B14-EB56-B8AB-0D95-8AEFAAE7C32C</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="604E1A84-36A1-64DE-CC78-4EFDC2BA1302"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FD93F47-C5EA-333C-90F7-4315C4EEA284" name="Cooperativa_Cuenta_bancaria_FK">
+<createdBy>Home</createdBy>
+<createdTime>2021-07-18 19:06:48 UTC</createdTime>
+<generatorID>6B9CD567-92DC-C490-189F-08E266C6B2E0</generatorID>
+<ownerDesignName>proyecto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E20B90AA-3568-1175-0751-FCDCF798014A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
